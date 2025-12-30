@@ -661,8 +661,8 @@ export function ReferenceScreen() {
               />
               <AppText style={[$.fs_tiny, {color: colors.tint_4, marginTop: 4}]}>
                 Select a reference value from Reference Type ID 1
-              </AppText>
-            </AppView>
+        </AppText>
+      </AppView>
           )}
 
           <AppView style={{marginBottom: 16}}>
