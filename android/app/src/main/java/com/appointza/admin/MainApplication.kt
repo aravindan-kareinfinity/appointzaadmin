@@ -1,4 +1,4 @@
-package com.appointza
+package com.appointza.admin
 
 import android.app.Application
 import android.app.NotificationChannel
@@ -12,7 +12,7 @@ import com.facebook.react.ReactNativeHost
 import com.facebook.react.ReactPackage
 import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
-import com.appointza.BuildConfig
+import com.appointza.admin.BuildConfig
 
 class MainApplication : Application(), ReactApplication {
 

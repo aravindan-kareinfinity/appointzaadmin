@@ -19,13 +19,13 @@ This guide will help you set up Firebase Cloud Messaging (FCM) for push notifica
 
 ### 1.2 Add Android App
 1. In Firebase Console, click "Add app" and select Android
-2. Enter package name: `com.appointza`
+2. Enter package name: `com.appointza.admin`
 3. Download `google-services.json` file
 4. Replace the placeholder file at `android/app/google-services.json` with your actual file
 
 ### 1.3 Add iOS App (if needed)
 1. In Firebase Console, click "Add app" and select iOS
-2. Enter bundle ID: `com.appointza` (or your iOS bundle ID)
+2. Enter bundle ID: `com.appointza.admin` (or your iOS bundle ID)
 3. Download `GoogleService-Info.plist` file
 4. Add it to your iOS project at `ios/Appointza/GoogleService-Info.plist`
 
@@ -50,7 +50,7 @@ Replace the placeholder content in `android/app/google-services.json` with your 
       "client_info": {
         "mobilesdk_app_id": "YOUR_MOBILE_SDK_APP_ID",
         "android_client_info": {
-          "package_name": "com.appointza"
+          "package_name": "com.appointza.admin"
         }
       },
       "oauth_client": [],

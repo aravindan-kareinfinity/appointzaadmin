@@ -18,6 +18,9 @@ export class ReferenceValueService {
     async select(req: ReferenceValueSelectReq) {
         let postdata: ActionReq<ReferenceValueSelectReq> =
             new ActionReq<ReferenceValueSelectReq>();
+        if (req.organizationid === 0 && req.organisationid && req.organisationid !== 0) {
+            req.organizationid = req.organisationid;
+        }
         postdata.item = req;
         let resp = await this.http.post<ActionRes<Array<ReferenceValue>>>(
             this.baseurl + '/select', 

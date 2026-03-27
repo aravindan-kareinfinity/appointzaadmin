@@ -32,6 +32,8 @@ export class ReferenceValueSelectReq {
   id: number = 0;
   parentid: number = 0;
   referencetypeid: number = 0;
+  // Backend expects American spelling; keep both for compatibility.
+  organizationid: number = 0;
   organisationid: number = 0;
 }
 
